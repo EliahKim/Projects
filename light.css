@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Roboto', serif;
+    src: url('fonts/PlayfairDisplay-VariableFont_wght.ttf') format('ttf');
+  }
+
+  @font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('fonts/Roboto-Bold.ttf') format('ttf');
+  }
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#animated1{
+    color: #484848;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    cursor: pointer
+}
+
+h1 span{
+    transition: 0.3s linear;
+}
+
+h1:hover span:nth-child(1){
+    margin-right: 5px;
+}
+
+h1:hover span:nth-child(2){
+    margin-left: 30px
+  }
+
+  h1:hover span{
+    color: #fff;
+    text-shadow: 0 0 100px #fff,
+                 0 0 30px #fff, 
+                 0 0 500px #fff;
+  }
+
+strong{
+    font-style: bold;
+}
+
+strong{
+    font-style: bold;
+
+}
